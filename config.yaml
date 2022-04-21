@@ -1,0 +1,13 @@
+mongo:
+  uri: mongodb://api_user:api1234@127.0.0.1:27017/api_db
+  username: api_user
+  password: api1234
+  database: api_db
+port: "9090"
+logger:
+  level: 5
+  logfile:
+currency:
+  coefficientEURtoUSD: 1.1328
+  coefficientRUStoUSD: 0.014
+
